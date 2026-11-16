@@ -48,7 +48,7 @@ react-lab-programs/
 | # | Program Name | Description | Key Technologies | Status |
 |---|---|---|---|---|
 | 01 | **React HTML App** | Direct HTML rendering to DOM using React `createRoot` | React 19, Vite | Completed |
-| 02 | **React JSX App** | Embedding dynamic JavaScript expressions into JSX | React 19, Vite | Pending |
+| 02 | **React JSX App** | Embedding dynamic JavaScript expressions into JSX | React 19, Vite | Completed |
 | 03 | **React Multi Components** | Nested Class (Header/Footer) & Functional (Student) Components | React 19, Vite | Pending |
 | 04 | **React State & Events** | State management using `useState` and Prop destructuring | React 19, Vite | Pending |
 | 05 | **React Forms & Events** | Controlled form inputs with validation, submit, and clear | React 19, Vite | Pending |
@@ -76,17 +76,18 @@ react-lab-programs/
 
 ---
 
-## Running Program 1 Locally
+## Running Programs Locally
 
+### Program 1: React HTML App
 ```bash
-# Navigate to Program 1 directory
 cd frontend-applications/program-01-react-html-app
-
-# Install dependencies (if not already installed)
 npm install
-
-# Start development server
 npm run dev
 ```
 
-Open `http://localhost:5173` in your browser.
+### Program 2: React JSX App
+```bash
+cd frontend-applications/program-02-react-jsx-app
+npm install
+npm run dev
+```
